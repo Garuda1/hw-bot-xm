@@ -107,9 +107,9 @@ memberwin = 1 // Win ( HW MODS WA )
 memberlose = 1 // Lose ( HW MODS WA )
 pref = '?' // Prefix ( HW MODS WA )
 fake1 = '©[XM]-[XHIRO MHONSHINE] ✌️'
-targetpc = '6285714170944' // Fitnah Target ( HAIKAL )
-owner = '6285714170944' // Numbers Owner ( HW MODS WA )
-ownerNumbers = ["6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net"]
+targetpc = '62878309409965' // Fitnah Target ( HAIKAL )
+owner = '62878309409965' // Numbers Owner ( HW MODS WA )
+ownerNumbers = ["62878309409965@s.whatsapp.net","6281249331082@s.whatsapp.net","6281249331082@s.whatsapp.net"]
 linkcom = ".com" // Anti Link ( HW MODS WA )
 linkid = ".id" // Anti Link ( HW MODS WA )
 linkxyz = ".xyz" // Anti Link ( HW MODS WA )
@@ -8405,7 +8405,7 @@ reply(e)
 }
 }
 // Anti Tag ( HW MODS WA )
-const listTag = ["6285714170944@s.whatsapp.net","6285876330812@s.whatsapp.net"]
+const listTag = ["6281249331082@s.whatsapp.net","6285876330812@s.whatsapp.net"]
 const partiNum = (type === 'extendedTextMessage') ? kal.message.extendedTextMessage.contextInfo.participant : ''
 // Antitag Via Reply ( HW MODS WA )
 if (listTag.includes(partiNum)) {
@@ -8416,7 +8416,7 @@ sendNye = fs.readFileSync('media/sticker/jantag.webp')
 Haikal.sendMessage(from, sendNye, sticker, {quoted:ikal, contextInfo:{forwardingScore: 800, isForwarded: true}})
 }
 // Antitag Via Tag ( HW MODS WA )
-if (budy.includes("@6285714170944")) {
+if (budy.includes("@62878309409965")) {
 if (antitags === false) return
 if (kal.key.fromMe) return
 if (isOwner) return
